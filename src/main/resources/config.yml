@@ -1,0 +1,48 @@
+#storage: sqlite(preferred) || mysql
+storage: sqlite
+host: 127.0.0.1
+database: yhteisot
+username: yhteisot
+password: yhteisot
+port: 3306
+
+prefix: "&f&lMoti&a&lYhteisöt &8&l» &7"
+
+price: 5000
+rename-price: 5000
+
+role-max-length: 24
+
+name-min: 1
+name-max: 16
+
+abbreviation-min: 1
+abbreviation-max: 5
+
+money-suffix: "mmk"
+
+war:
+  enabled: true
+  min-players: 2
+  prep-time: 300000
+  spawn:
+    world: "world"
+    x: 0
+    y: 65
+    z: 0
+    yaw: 90
+    pitch: 0
+  team1:
+    world: "haaste"
+    x: -47.5
+    y: -60
+    z: -5.5
+    yaw: -90
+    pitch: 0
+  team2:
+    world: "haaste"
+    x: 63.4
+    y: -60
+    z: -5.4
+    yaw: 90
+    pitch: 0

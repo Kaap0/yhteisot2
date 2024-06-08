@@ -1,0 +1,13 @@
+name: MotiYhteisot2
+version: ${project.version}
+main: net.motimaa.motiyhteisot.MotiYhteisot
+authors: [Kaap0, Johvu]
+description: Yhteisöt2 MotiMaahan
+website: Discord Mojo991#1337
+depend: [Vault]
+api-version: 1.18
+softdepend: [PlaceholderAPI]
+
+commands:
+  yhteisö:
+    aliases: [yht, yhteiso]
